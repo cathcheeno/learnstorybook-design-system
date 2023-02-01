@@ -119,7 +119,6 @@ export function Avatar({ loading, username, src, size, ...props }) {
   return (
     <Image size={size} loading={loading} src={src} {...a11yProps} {...props}>
       {avatarFigure}
-tweak
     </Image>
   );
 }
